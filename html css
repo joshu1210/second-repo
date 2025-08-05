@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aditya College Academy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+
+    header {
+      background-color: #00539C;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #003366;
+      text-align: center;
+    }
+
+    nav a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+    }
+
+    nav a:hover {
+      background-color: #0073e6;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: white;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #003366;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aditya College Academy</h1>
+    <p>Empowering Students for a Brighter Future</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="section" id="about">
+    <h2>About Us</h2>
+    <p>Aditya College Academy is a premier educational institution dedicated to academic excellence and holistic development. Our mission is to inspire and nurture students to reach their full potential.</p>
+  </div>
+
+  <div class="section" id="courses">
+    <h2>Our Courses</h2>
+    <ul>
+      <li>B.Sc Computer Science</li>
+      <li>B.Com General</li>
+      <li>BBA (Bachelor of Business Administration)</li>
+      <li>MCA (Master of Computer Applications)</li>
+      <li>Certification Programs in Data Science & Web Development</li>
+    </ul>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@adityacollege.edu.in</p>
+    <p>Phone: +91-9876543210</p>
+    <p>Location: Aditya Nagar, Andhra Pradesh, India</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Aditya College Academy. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
